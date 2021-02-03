@@ -1,0 +1,74 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="v-section">
+    <div class="row v-section-content">
+        <div class="col-lg-12 text-center">
+            <h1 class="v-vedauri display-1">Vedauri</h1>
+            <h2 class="v-header">Level Up</h2>
+
+            <div class="invoke-scroll-container">
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <span class="scroll-text"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="v-section vedauritron">
+    <div class="row v-section-content">
+        <div class="col-lg-12 text-center">
+            <h1 class="display-3">Websites</h1>
+            <h2 class="v-header">Custom Development</h2>
+            <blockquote class="blockquote">
+                <p class="mb-0">
+                    Websites are essential to becoming established on the web.
+                    Vedauri offers creative, design-driven solutions to get you
+                    online and in front of the world.
+                </p>
+            </blockquote>
+            @Html.ActionLink("Learn More", "Website", "Home", null, new { @class = "btn btn-lg btn-outline-light" })
+        </div>
+    </div>
+</div>
+
+<div class="v-section vedauritron">
+    <div class="row v-section-content">
+        <div class="col-lg-12 text-center">
+            <h1 class="display-3">Software</h1>
+            <h2 class="v-header">Custom Development</h2>
+            <blockquote class="blockquote">
+                <p class="mb-0">
+                    Companies using software to run their business processes are years ahead.
+                    We build customized, data-driven applications that solve problems by automating
+                    tasks and more.
+                </p>
+            </blockquote>
+            @Html.ActionLink("Learn More", "Software", "Home", null, new { @class = "btn btn-lg btn-outline-light" })
+        </div>
+    </div>
+</div>
+
+<div class="v-section vedauritron">
+    <div class="row v-section-content">
+        <div class="col-lg-12 text-center">
+            <h1 class="display-3">Contact</h1>
+            <h2 class="v-header">Get Started Today</h2>
+            <blockquote class="blockquote">
+                <p class="mb-0">
+                    Get in touch with your new dev team and level up.
+                </p>
+            </blockquote>
+            @Html.ActionLink("Contact Us", "Contact", "Home", null, new { @class = "btn btn-lg btn-outline-light" })
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+
+    </script>
+}

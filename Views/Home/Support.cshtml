@@ -1,0 +1,78 @@
+﻿
+@{
+    ViewBag.Title = "Support";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="v-section">
+    <div class="row v-section-content">
+        <div class="col-lg-12 text-center">
+            <div class="display-3">Support.</div>
+            <blockquote class="blockquote">
+                <p class="mb-0">
+                    We're always there when you need us.
+                </p>
+            </blockquote>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="v-section">
+        <div class="row v-section-content">
+            <div class="col-lg-12 text-center">
+                <h1>Support Packages</h1>
+                <blockquote class="blockquote">
+                    <p class="mb-0">
+                        Contact us to sign up for our monthly support membership.
+                    </p>
+                </blockquote>
+                <br />
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="card v-card text-center">
+                    <div class="card-header">
+                        Hot Fix
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Basic / $45 hourly</h5>
+                        <p class="card-text">
+                            Contact us to schedule support help.
+                        </p>
+                        @Html.ActionLink("Contact Us", "Contact", "Home", null, new { @class = "btn btn-lg btn-outline-dark" })
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="card v-card text-center">
+                    <div class="card-header">
+                        Membership
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Customizable</h5>
+                        <p class="card-text">
+                            Customize a plan based on your needs.
+                        </p>
+                        @Html.ActionLink("Contact Us", "Contact", "Home", null, new { @class = "btn btn-lg btn-outline-dark" })
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="v-section">
+    <div class="row v-section-content">
+        <div class="col-lg-12 text-center">
+            <h1>Something else?</h1>
+            <blockquote class="blockquote">
+                <p class="mb-0">
+                    If you're looking for any other type of technical support, feel free to contact us.
+                </p>
+            </blockquote>
+            @Html.ActionLink("Contact Us", "Contact", "Home", null, new { @class = "btn btn-lg btn-outline-dark" })
+        </div>
+    </div>
+</div>
+
